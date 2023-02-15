@@ -1,0 +1,39 @@
+html, body {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+#canvas1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#canvas2 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.options {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(82, 198, 247, 0.5);
+    padding: 3vh;
+    border-radius: 3vh;
+    font-size: 3vh;
+}
+
+.options input {
+    width: 20vh;
+}
+
+.options button {
+    font-size: 3vh;
+    border-radius: 2vh;
+}

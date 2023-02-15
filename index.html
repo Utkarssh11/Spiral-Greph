@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Spiral Greph</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<canvas id="canvas1"></canvas>
+	<canvas id="canvas2" hidden></canvas>
+    <div class="options">
+        <label for="length" id="length_label">Length: 100</label>
+        <input id="length" type="range" min="20" max="150" value="100" step="5">
+        <label for="speed" id="speed_label">Speed: 4.4</label>
+        <input id="speed" type="range" min="-5" max="5" value="4.4" step="0.1">
+        <br>
+        <button id="clear">Reset</button>
+    </div>
+	<script src="script.js">
+	</script>
+</body>
+
+</html>
